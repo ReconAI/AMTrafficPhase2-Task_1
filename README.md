@@ -6,7 +6,7 @@ The algorithm to detect stationary objects in a video, frame-by-frame.
 Tested on UA-Detrac dataset, which can be downloaded at
 http://detrac-db.rit.albany.edu/download
 
-#HOW TO TEST
+# HOW TO TEST
 
 0) run ```pip3 install -r requirements.txt```
 1) Download sample frames and .xml [links to be added]
