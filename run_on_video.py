@@ -2,7 +2,6 @@ import copy
 import os
 from xml.etree import ElementTree
 import cv2
-from skimage import io
 from StationaryDetector import StationaryDetector
 
 
@@ -38,7 +37,7 @@ if __name__ == '__main__':
     is_stat = False
 
     for i, (pic, target) in enumerate(tg):
-        im = io.imread(os.path.join(vid, 'img' + pic.rjust(5, '0')+'.jpg'))
+        im = cv2.imread(os.path.join(vid, 'img' + pic.rjust(5, '0')+'.jpg'))
         det_dict = {}
         for o, box in target:
             x1, y1, x2, y2 = get_coords(box)
