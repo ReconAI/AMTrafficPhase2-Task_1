@@ -24,7 +24,7 @@ Parameters
 * interval (int): number of previous frames to consider (history buffer length)\
 * check_period (int): checks are done every so many frames\
 * thres (int): displacemet threshold, objects with \
-* displacement > thres are considered moving.\
+ displacement > thres are considered moving.\
  Depends on image size, for 960x540 images use thres=10.\
  For other sizes you may follow\
  10 * ((image_height / 540) + (image_width / 960)) / 2
