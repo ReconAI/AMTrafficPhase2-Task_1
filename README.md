@@ -1,7 +1,19 @@
 # AMTrafficPhase2-Task_1
-Detection of stopped vehicles
-
 A Python algorithm to detect stationary objects in a video, frame-by-frame.
+
+Detailed description:
+Develop and implement algorithm to detect immobile objects on the video
+sequence. As an input you would receive a list of bounding boxes (output of
+Yolo detector, or similar); each bounding box contains 1+4+4* n values: 1 -
+class, 4 - relative bbox center coordinate, width and height (for example
+<relative_x> = <absolute_x>/<image_width>); 4 - 4 points from previous
+frame; n - is the number of previous frames.
+Algorithm must have O(log(n* m)), O(n* m) complexity (this point is
+discussable), where ‘m’ is number of bounding boxes in the frame and ‘n’ is
+number of previous states (frames) for each object.
+Ideally it has to be a light-weight statistical module (not neural network or
+tree), which would make a decision depending on image size and object
+dimensions.
 
 # INSTALLATAION
 
