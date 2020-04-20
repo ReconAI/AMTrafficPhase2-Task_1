@@ -54,7 +54,7 @@ If the object disappears from the image for 20 consequtive frames, its buffer is
 
 ### TESTING
 
-1. Download sample frames and .xml from [here](https://drive.google.com/open?id=1HT8bfzucocSJR9fnjZl4wdjZgmOvEMzQ)
+1. Download sample frames and .xml from [here](https://drive.google.com/open?id=1HT8bfzucocSJR9fnjZl4wdjZgmOvEMzQ). These files are sampled from [DETRAC](http://detrac-db.rit.albany.edu/) dataset.
 2. Unzip files in root folder
 3. Run ```python3 run_on_video.py --video MVI_XXXXX```
 4. Videofile would be produced, named 'MVI_XXXXX_processed.avi'. 
