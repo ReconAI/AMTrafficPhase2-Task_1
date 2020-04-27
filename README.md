@@ -54,7 +54,7 @@ If the object disappears from the image for 20 consequtive frames, its buffer is
 
 ### TESTING
 
-1. Download sample frames and .xml from [here](https://drive.google.com/open?id=1HT8bfzucocSJR9fnjZl4wdjZgmOvEMzQ). These files are sampled from [DETRAC](http://detrac-db.rit.albany.edu/) dataset.
+1. Download sample frames (unzip) and .xml from [here](https://drive.google.com/drive/folders/1JIlapTGeaaDHd3YW0zMwy7zE9-7q8SEt?usp=sharing). These files are sampled from [DETRAC](http://detrac-db.rit.albany.edu/) dataset.
 2. Unzip files in root folder
 3. Run ```python3 run_on_video.py --video MVI_XXXXX```
 4. Videofile would be produced, named 'MVI_XXXXX_processed.avi'. 
@@ -63,4 +63,4 @@ If the object disappears from the image for 20 consequtive frames, its buffer is
 4.3. If object is considered 'stopped' bounding box would be red
 4.4. Output results depends on parameters passed in StationaryDetector
 
-Pre-generated sample videos can be found [here](https://drive.google.com/open?id=1M33jMYyIhF68fmPi5KLKNt4WbI1QhUCZ)
+Pre-generated sample videos can be found [here](https://drive.google.com/drive/folders/1eGF9n1a5DLjWFDgS-dgpkmBm8AK_XdLk?usp=sharing)
