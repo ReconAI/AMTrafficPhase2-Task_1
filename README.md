@@ -53,7 +53,7 @@ If the object disappears from the image for 20 consequtive frames, its buffer is
 2. Scipy library for median filtering
 
 ### TESTING
-1. Download sample frames (unzip) and .xml from [here](https://drive.google.com/drive/folders/1JIlapTGeaaDHd3YW0zMwy7zE9-7q8SEt?usp=sharing). These files are sampled from [DETRAC](http://detrac-db.rit.albany.edu/) dataset.
+1. Download and unzip sample frames, annotations and .xml from [here](https://drive.google.com/drive/folders/1JIlapTGeaaDHd3YW0zMwy7zE9-7q8SEt?usp=sharing). These files are sampled from [DETRAC](http://detrac-db.rit.albany.edu/) dataset.
 2. Unzip files in root folder, keeping directory structure.
 3. Run `python3 evaluate.py --ann TestingData/StaticObjectsAnnotation.json`
 The script should print metrics in stdout. For the data from above, algorithm achieves **0.81 recall, 0.71 precision, 0.98 TNR**. Visual examination shows that the main source of errors is the ~2 second lag originating from the sliding window approach, and specifics of data: jitter in object coordinates due to detector errors or camera movement from wind. 
