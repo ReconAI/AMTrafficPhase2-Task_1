@@ -2,7 +2,7 @@ import copy
 import os
 import json
 from xml.etree import ElementTree
-from Static_Detector import StationaryDetector
+from StationaryDetector import StationaryDetector
 
 
 def get_coords(b_info):
